@@ -1,12 +1,8 @@
 # Project Title: Sales Quantity Forecasting for Pizza Dataset
 
-## Project Overview & Objectives:
+## Project Overview:
 
 Dataset: pizza_data.xlxs
-
-In this project, we will explore the pizza transaction dataset using various techniques, including many supervised learning algorithms (listed below).
-The goal is to analyze and model total quantity sold by weekly of specific pizza w specific size in New Jersey based on different category features.
-the result we want is the predicting total sales/ quantity for the next year by each pizza and sizes. We will do it by aggregating weekly predictions to get annual forecasts  
 
 To predict the quantity sold based on categorical features, several prediction models can be considered. The choice of model depends on the nature of the data and the specific problem requirements. Here are some suitable models for handling categorical features:
 
@@ -51,6 +47,11 @@ Robust to overfitting in high-dimensional spaces.
 4. Forecasting pizza demand (quantity & sales) using the best model.
 5. Exploring sales and quantity trends with forecasted data
 6. Interpret results
+
+## Objectives:
+In this project, we will explore the pizza transaction dataset using various techniques, including many supervised learning algorithms (listed below).
+The goal is to analyze and model total quantity sold by weekly of specific pizza w specific size in New Jersey based on different category features.
+the result we want is the predicting total sales/ quantity for the next year by each pizza and sizes. We will do it by aggregating weekly predictions to get annual forecasts  
 
 ---
 
