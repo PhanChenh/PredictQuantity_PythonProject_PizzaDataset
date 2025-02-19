@@ -14,6 +14,8 @@
 
 ## Overview
 
+This project focuses on forecasting pizza sales quantity using machine learning techniques. By analyzing transaction data, we aim to predict the total quantity sold weekly for specific pizzas of different sizes in New Jersey. The ultimate goal is to aggregate these weekly predictions to generate an annual sales forecast for the next year.
+
 ## Dataset
 
 The analysis is based on the [data_pizza.xlsx](data_pizza.xlsx)
@@ -22,6 +24,9 @@ The analysis is based on the [data_pizza.xlsx](data_pizza.xlsx)
 - Number of Features: 10
 - Key Variables: according to [data_dictionary.xlsx](data_dictionary.xlsx)
 
+## Objectives
+
+The objective is to analyze and model the total quantity sold on a weekly basis using categorical features, forecast total sales and quantity for the upcoming year by aggregating weekly predictions, and identify key factors influencing pizza sales to optimize business strategies accordingly.
 
 
 ------
