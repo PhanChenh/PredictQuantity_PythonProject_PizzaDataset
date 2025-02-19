@@ -30,7 +30,7 @@ The objective is to analyze and model the total quantity sold on a weekly basis 
 
 ## Analysis Approach
 1. Exploratory Data Analysis (EDA): Data cleaning, handling missing values, and visualizing trends.
-2. Data Preprocessing: Applying transformations such as log transformations and standardization.
+2. Data Preprocessing and Data Selection: Applying transformations such as log transformations and standardization.
 3. Model Selection and Evaluation: Comparing multiple supervised learning models.
 4. Forecasting Sales and Quantity: Using the best-performing model for predictions.
 5. Insights and Recommendations: Deriving actionable insights for business decisions.
@@ -98,7 +98,41 @@ Advantages:
 
 ## Results & Visualizations
 
+![Screenshot 2025-02-19 145955](https://github.com/user-attachments/assets/f9f04ad2-2fc1-41b9-b267-96e657ba5063)
 
+Figure 1: Report the RMSE for the training and test sets for linear regression and Lasso regression model for each dataset
+
+Finding: Dataset with log transformations and Dataset with log transformations + standardization perform better 
+
+![Screenshot 2025-02-19 150443](https://github.com/user-attachments/assets/989012b3-c950-4add-9063-daf65179a0e8)
+
+Figure 2: Model Validation - Lasso Regression Model 
+
+![Screenshot 2025-02-19 150738](https://github.com/user-attachments/assets/edf0cb56-ede9-4633-9c54-6df4956d08e3)
+
+Figure 3: Model Validation - Ridge Regression Model
+
+![Screenshot 2025-02-19 150841](https://github.com/user-attachments/assets/51679730-1ddc-4e7c-aa09-50e9b240c524)
+
+Figure 4: Model Validation - Decision Tree Regression Model
+
+![Screenshot 2025-02-19 150938](https://github.com/user-attachments/assets/d28fc361-d24e-470e-b022-26fa47f78a6d)
+
+Figure 5: Model Validation - Random Forest Regressor Model 
+
+![Screenshot 2025-02-19 151031](https://github.com/user-attachments/assets/fbf5386d-4ed8-444b-bddb-686447b1ccc8)
+
+Figure 6: Model Validation - Gradient Boosting Machine (GBM) Model
+
+![Screenshot 2025-02-19 151128](https://github.com/user-attachments/assets/6aa0b5ca-b776-4a02-976f-85f190be7fe6)
+
+Figure 7: Model Validation - Support Vector Regression (SVR) Model
+
+![Screenshot 2025-02-19 151230](https://github.com/user-attachments/assets/e919daa0-a972-4474-afdf-4198b17fd238)
+
+Figure 8: Model Validation - MCA  Model
+
+Figure 9: Model Validation - 
 ------
 
 ## Project Overview & Objectives:
