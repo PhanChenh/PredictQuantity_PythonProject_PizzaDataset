@@ -28,6 +28,76 @@ The analysis is based on the [data_pizza.xlsx](data_pizza.xlsx)
 
 The objective is to analyze and model the total quantity sold on a weekly basis using categorical features, forecast total sales and quantity for the upcoming year by aggregating weekly predictions, and identify key factors influencing pizza sales to optimize business strategies accordingly.
 
+## Analysis Approach
+1. Exploratory Data Analysis (EDA): Data cleaning, handling missing values, and visualizing trends.
+2. Data Preprocessing: Applying transformations such as log transformations and standardization.
+3. Model Selection and Evaluation: Comparing multiple supervised learning models.
+4. Forecasting Sales and Quantity: Using the best-performing model for predictions.
+5. Insights and Recommendations: Deriving actionable insights for business decisions.
+
+To predict the quantity sold based on categorical features, several prediction models can be considered. The choice of model depends on the nature of the data and the specific problem requirements. Here are some suitable models for handling categorical features:
+
+1. Linear Models with Regularization:
+- Lasso Regression (L1 regularization): Helps in feature selection by shrinking less important feature coefficients to zero.
+- Ridge Regression (L2 regularization): Regularizes model complexity by shrinking coefficients without setting them to zero.
+
+Advantages:
+- Good for datasets with many categorical variables, especially if one-hot encoding leads to a high-dimensional space.
+- Efficient and interpretable.
+
+2. Decision Tree Regression:
+- Handles both numerical and categorical data natively.
+- Can capture non-linear relationships and interactions between features.
+
+Advantages:
+- Intuitive and easy to interpret.
+- No need for extensive preprocessing of categorical data.
+
+3. Random Forest Regression:
+- An ensemble of decision trees, which improves generalization by reducing variance.
+- Handles categorical features well and is robust to overfitting.
+
+Advantages:
+- High accuracy and can capture complex patterns.
+- Feature importance can be derived, providing insights into the impact of different features.
+
+4. Gradient Boosting Machines (GBM): Handle categorical features effectively.
+
+Advantages:
+- Excellent predictive performance.
+- Built-in handling for categorical features.
+
+5. Support Vector Machines (SVM):
+- Can be used with kernels to capture non-linear relationships.
+- Requires preprocessing of categorical data into numerical format (e.g., one-hot encoding).
+
+Advantages:
+- Effective for both linear and non-linear data.
+- Robust to overfitting in high-dimensional spaces.
+
+## Key Findings
+- The Gradient Boosting Machine (GBM) model provided the best forecasting performance.
+- Total predicted sales and quantity for 2016 showed a decline compared to 2015.
+- Large and Medium pizza sizes were the most popular.
+- Non-holiday weeks saw significantly higher sales than holiday weeks.
+- Seasonal shifts: Highest sales in summer (2015) and winter (predicted 2016).
+- Medium-priced pizzas ($15-$25) dominated sales.
+- Weeks 39, 52, and 53 consistently experienced sales drops.
+
+## How to run code
+
+1. Install Required Libraries: Ensure all necessary libraries such as pandas, matplotlib, seaborn, Scikit-learn,... are installed like in the [file](sales_quantity_predicting.ipynb)
+2. Load the Dataset: Import the dataset by loading the [file](data_pizza.xlsx)
+3. Run the Analysis Notebooks: Execute the analysis notebooks in Jupyter to process the data, build and train the model, and visualize the results.
+
+## Technologies Used
+
+- Python: Data analysis and preprocessing were performed using pandas and numpy. For modeling, various algorithms were explored, including Lasso Regression, Ridge Regression, Decision Tree, Random Forest, Gradient Boosting Machine (GBM), and Support Vector Machines (SVM), etc. Model evaluation and hyperparameter tuning were done using scikit-learn, including GridSearchCV for optimizing model parameters.
+
+- Visualization: Visualizations were created with matplotlib and seaborn to analyze trends and evaluate model performance. Feature importance was also visualized to understand the impact of different features on the predictions.
+
+## Results & Visualizations
+
 
 ------
 
