@@ -1,4 +1,30 @@
-# Project Title: Sales Quantity Forecasting for Pizza Dataset
+# Project Title: Sales Quantity Forecasting for Pizza Dataset 2015
+
+## Table of Contents
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Objective](#objective)
+- [Analysis Approach](#analysis-approach)
+- [Key Findings](#key-findings)
+- [How to run code](#how-to-run-code)
+- [Technologies Used](#technologies-used)
+- [Results & Visualizations](#results--visualizations)
+- [Recommendation](#recommendation)
+- [Contact](#contact)
+
+## Overview
+
+## Dataset
+
+The analysis is based on the [data_pizza.xlsx](data_pizza.xlsx)
+- Time period Covered: 2015
+- Number of Record: 21288 rows
+- Number of Features: 10
+- Key Variables: according to [data_dictionary.xlsx](data_dictionary.xlsx)
+
+
+
+------
 
 ## Project Overview & Objectives:
 
