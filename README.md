@@ -132,7 +132,8 @@ Figure 7: Model Validation - Support Vector Regression (SVR) Model
 
 Figure 8: Model Validation - MCA  Model
 
-Figure 9: Model Validation - 
+Conclusion: The Gradient Boosting Machine (GBM) is the best model based on the lowest RMSE on both the training and test sets. It indicates a good balance between fitting the training data and generalizing to new, unseen data.
+
 ------
 
 ## Project Overview & Objectives:
