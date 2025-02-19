@@ -98,6 +98,8 @@ Advantages:
 
 ## Results & Visualizations
 
+### Choosing Dataset and Model
+
 ![Screenshot 2025-02-19 145955](https://github.com/user-attachments/assets/f9f04ad2-2fc1-41b9-b267-96e657ba5063)
 
 Figure 1: Report the RMSE for the training and test sets for linear regression and Lasso regression model for each dataset
@@ -133,6 +135,87 @@ Figure 7: Model Validation - Support Vector Regression (SVR) Model
 Figure 8: Model Validation - MCA  Model
 
 Conclusion: The Gradient Boosting Machine (GBM) is the best model based on the lowest RMSE on both the training and test sets. It indicates a good balance between fitting the training data and generalizing to new, unseen data.
+
+### Result for prediction
+
+2015 total sales: 817.86K
+
+2015 total quantity: 49574
+
+2016 Total Sales (predict): 766410.2264293174
+
+2016 Quantity (predict): 46456.417408155285
+
+Seems like predicted quantity in 2016 according to the predicting model has lower sales and lower quantity than 2015. For further understanding, we can plot total sales, quantity by month, week with the predicted quantity to find out the reasons. 
+
+![image](https://github.com/user-attachments/assets/4067f5c6-7b67-4f04-b76f-5d5635212b77)
+Total quantity sold by pizza name in 2015
+
+![image](https://github.com/user-attachments/assets/bc9981e4-f7e3-485c-b6f7-72a7a7becddd)
+Total predicted quantity sell by pizza name in 2016
+
+Finding:
+
+Total quantity sold by pizza name in 2015:
+- top 6 pizza around 2400-2500 quantity sold: the classic deluxe pizza > the bbq chicken pizza> the hawaiian pizza > the pepperoni pizza > the thai chicken pizza > the california chicken pizza 
+- bottom pizza around 500 quantity sold: the bire carre pizza.
+- other pizza around nearly 1000-2000 quantity sold.
+
+Total predicted quantity sell by pizza name in 2016:
+- top 6 pizza around 2000-2500 quantity sold: the pepperoni pizza > the classic deluxe pizza > the california chicken pizza > the thai chicken pizza > the hawaiian pizza > The Italian Supreme Pizza
+- bottom pizza around 500 quantity sold: the bire carre pizza.
+- other pizza around nearly 800-2000 quantity sold.
+
+![image](https://github.com/user-attachments/assets/aab5140a-4263-4570-911c-00eabbe2da26)
+Visualize the distribution of categories with target variable with Bar Plots in 2015
+
+![image](https://github.com/user-attachments/assets/c22a9bf0-55f3-4506-99d6-2f3dc33346e3)
+Visualize the distribution of categories with target variable with Bar Plots in 2016
+
+Finding:
+
+Visualize the distribution of categories with target variable with Bar Plots in 2015:
+- quantity sold by size: L>M>S>XL>XXL
+- non-holiday sold more than holiday around 2.7 times
+- Quantity sold by season: summer>spring>winter>fall (14K>13.5K>11.8K>10.5K)
+- Quantity sold by price: medium price around $15-$25> low price below $15 > high price above $25 (30K>15K>500)
+
+Visualize the distribution of categories with target variable with Bar Plots in 2016:
+- quantity sold by size: L>M>S>XL>XXL
+- non-holiday sold more than holiday around 2.2 times
+- Quantity sold by season: winter>spring>fall>summer (14K>12K>11.5K>9.8K)
+- Quantity sold by price: medium price around $15-$25> low price below $15 > high price above $25 (30K>14K>500)
+
+![image](https://github.com/user-attachments/assets/b4d4c0b5-5cb7-450f-b968-c313a9b93ecb)
+Total Quantity Sold vs. Week of Year (2015)
+
+![image](https://github.com/user-attachments/assets/2aa6ba5d-5e02-49c9-806e-00c3d61399e1)
+Predicted Quantity Sell vs. Week of Year (2016)
+
+Finding: 
+
+Total Quantity Sold vs. Week of Year (2015)
+- The sales start low at around 600 in Week 1.
+- From Week 2 to Week 38, sales increase and stabilize between 900 and 1,050 units.
+- Week 39 sees a drop to around 650, but sales recover in Week 40, stabilizing again around 900–1,050 until Week 47.
+- Week 48 peaks at 1,200, followed by a decline in the next few weeks, stabilizing around 950 until Week 51.
+- Week 52 drops to 650, and Week 53 further declines to around 400.
+
+Predicted Quantity Sell vs. Week of Year (2016)
+- The year starts higher than 2015, at around 700 in Week 1.
+- From Week 2 to Week 13, sales increase and stabilize around 1,000 units.
+- Week 14 sees a drop, with sales stabilizing around 900 until Week 26.
+- Week 27 marks another decline, with sales remaining between 700 and 780 until Week 38.
+- Week 39 drops to 600, but Week 40 sees a recovery to 800, followed by a gradual increase until Week 48, reaching 1,000 units.
+- Week 49 experiences a slight drop to 950, followed by a gradual decline to 900 in Week 51.
+- Week 52 drops to 700, and Week 53 further declines to 500.
+
+Below is plot of important features
+![image](https://github.com/user-attachments/assets/669a791e-fb53-40f8-9482-ca70ce4a6d2d)
+Feature importance from GBM model
+
+Consider features that have significant impact: price, week_of_year
+
 
 ------
 
