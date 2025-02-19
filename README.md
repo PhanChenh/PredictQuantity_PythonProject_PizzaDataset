@@ -216,40 +216,12 @@ Feature importance from GBM model
 
 Consider features that have significant impact: price, week_of_year
 
-
-
-
 ## Recommendation:
 - Focus promotions on high-performing pizzas to drive even more sales.
-- Promote the Brie Carre Pizza to assess customer demand. Since this pizza is currently available in only one size, analyze its sales performance after the promotion. If demand increases, consider introducing additional sizes or complementary offers. 
-- Optimize inventory for Large and Medium pizzas since they are in high demand.
 - Since 2016 predicts higher winter sales, consider launching winter-themed promotions (e.g., family bundles, seasonal flavors).
 - Identify why summer sales are predicted to decline—adjust marketing efforts accordingly.
-- Focus product strategy on the medium-priced segment, which performs best.
 - Consider revising pricing strategy for high-priced pizzas—perhaps premium toppings or meal combos could justify the price.
-- Weeks 39, 52, and 53 historically see sales drops—consider targeted marketing campaigns or discounts during these weeks to maintain volume.
-- Monitor week-over-week performance closely to adjust inventory and promotions dynamically.
-
-# or:
-
-## Recommendation
-
-Promotions on Best-Sellers: Increase sales of top-performing pizzas.
-
-Boost Low-Selling Pizzas: Test marketing strategies for Brie Carre Pizza.
-
-Inventory Optimization: Focus on Large and Medium sizes.
-
-Winter Promotions: Align campaigns with higher predicted winter sales.
-
-Adjust Summer Marketing: Address the expected decline in summer sales.
-
-Price Strategy: Enhance premium pizza sales with combos or exclusive toppings.
-
-Sales Drops in Key Weeks: Implement marketing initiatives in Weeks 39, 52, and 53.
-
-Dynamic Monitoring: Track sales weekly to adjust promotions and inventory
-
+- Adjust Summer Marketing: Address the expected decline in summer sales.
 
 ## Contact
 
