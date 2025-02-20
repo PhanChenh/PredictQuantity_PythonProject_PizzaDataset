@@ -225,7 +225,7 @@ Consider features that have significant impact: price, week_of_year
 
 ## Contact
 
-📧 Email: pearriperri@gmail.com
+📧 Email: phanchenh99@gmail.com
 
 🔗 [LinkedIn](https://www.linkedin.com/in/phan-chenh-6a7ba127a/) | Portfolio
 
