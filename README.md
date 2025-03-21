@@ -227,5 +227,5 @@ Consider features that have significant impact: price, week_of_year
 
 📧 Email: phanchenh99@gmail.com
 
-🔗 [LinkedIn](https://www.linkedin.com/in/phan-chenh-6a7ba127a/) | Portfolio
+🔗 [LinkedIn](https://www.linkedin.com/in/phan-chenh-6a7ba127a/) | [Portfolio](https://henh-phan-chenh.vercel.app/)
 
